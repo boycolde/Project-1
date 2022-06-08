@@ -3,7 +3,8 @@ Project 1/ELK Deployment
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-
+Inline-style:
+![alt text](https://github.com/boycolde/Project-1/blob/main/Diagrams/cloud%20homework.drawio.png "cloud diagram")
 Dropbox/Cozy/Desktop/cloud.diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the readme file may be used to install only certain pieces of it, such as Filebeat.
@@ -25,7 +26,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will disburse traffic efficiently , in addition to restricting access to the network.
-Load balancers off-loading function defends organizations against distributed denial-of-service (DDoS) attacks. It does this by redirecting traffic from the corporate server for example to a public cloud provider. A jumpbox brings the advantage of protecting azure VM’s from being exposed to the public as its entry point is set via remote desktop protocol (RDP).
+Load balancers off-loading function defends organizations against distributed denial-of-service (DDoS) attacks. It does this by redirecting traffic from the corporate server for example to a public cloud provider. A jumpbox brings the advantage of protecting azure VMâ€™s from being exposed to the public as its entry point is set via remote desktop protocol (RDP).
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to applications and system logs.
 What does Filebeat watch for? Filebeat monitors log files or locations and collects log events and forwards them either to elasticsearch or logstash for indexing.
