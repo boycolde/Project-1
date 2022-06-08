@@ -65,7 +65,6 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because its simple human readable automation that doesn't require special coding skills and tasks get executed in order. It also has strong app deployment, configuration management and workflow orchestration.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. 
 Installs docker.io, pip3 and the docker module. 
  # Use apt module
     - name: Install docker.io
@@ -139,5 +138,7 @@ SSH into the control node and follow the steps below:
 
 Which file is the playbook? The filebeat-configuration
 Where do you copy it? From /etc/ansible/files/filebeat-config/yml to /etc/filebeat/filebeat.yml
+
 Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? Update filebeat-config.yml and specify which machine to install by updating the host file with ip addresses of the web/elk servers and select which group to run on in ansible.
+
 Which URL do you navigate to in order to check that the ELK server is running? http://[ELK_VM_Public_IP]:5601/app/kibana
