@@ -114,7 +114,7 @@ Download and launch docker (elk server)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
  
-[logo]: https://github.com/boycolde/Project-1/blob/main/Images/docker_ps_output.png "docker output"
+![alt text](https://github.com/boycolde/Project-1/blob/main/Images/docker_ps_output.png "docker output")
 
 This ELK server is configured to monitor the following machines:
 Web 1(10.0.0.6)
