@@ -32,7 +32,6 @@ What does Filebeat watch for? Filebeat monitors log files or locations and colle
 What does Metricbeat record? Periodically collects metrics from the operating system and from services running on the server.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
