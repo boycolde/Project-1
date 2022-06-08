@@ -3,9 +3,8 @@ Project 1/ELK Deployment
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-Inline-style:
+
 ![alt text](https://github.com/boycolde/Project-1/blob/main/Diagrams/cloud%20homework.drawio.png "cloud diagram")
-Dropbox/Cozy/Desktop/cloud.diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the readme file may be used to install only certain pieces of it, such as Filebeat.
 ELK Install
@@ -116,7 +115,7 @@ Download and launch docker (elk server)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
  
-
+[logo]: https://github.com/boycolde/Project-1/blob/main/Images/docker_ps_output.png "docker output"
 
 This ELK server is configured to monitor the following machines:
 Web 1(10.0.0.6)
